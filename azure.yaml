@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: azure-fastapi-cosmos-postgres-aca
+metadata:
+    template: azure-fastapi-cosmos-postgres-aca
+infra:
+    provider: "bicep"
+services:
+    web:
+        project: demo_code
+        module: web
+        language: py
+        host: containerapp
+

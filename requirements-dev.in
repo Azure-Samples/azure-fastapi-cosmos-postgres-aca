@@ -1,0 +1,9 @@
+-r demo_code/requirements.txt
+pytest
+coverage
+pytest-cov
+pytest-playwright
+pip-tools
+ruff
+black
+
