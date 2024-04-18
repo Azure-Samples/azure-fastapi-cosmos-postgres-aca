@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/Azure-Samples/Azure-Python-Standardization-Template-Generator",
-  "commit": "621af12f962b64b1f3458b83fa1af0898d565d80",
+  "commit": "b2efa3cf7a045bcadc16ea6140c01785e850a84a",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -11,7 +11,7 @@
       "project_host": "aca",
       "web_port": "8000",
       "__repo_name": "azure-fastapi-cosmos-postgres-aca",
-      "__src_folder_name": "azure-fastapi-cosmos-postgres-aca",
+      "__src_folder_name": "azure_fastapi_cosmos_postgres_aca",
       "__project_short_description": "Create a relecloud demo application with fastapi and cosmos-postgres",
       "_copy_without_render": [
         ".github/workflows/azure-dev.yml",
