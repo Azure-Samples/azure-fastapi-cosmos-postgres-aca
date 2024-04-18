@@ -11,7 +11,13 @@ from fastapi_app import seed_data
 from fastapi_app.app import app
 
 # Set start method to "fork" to avoid issues with pickling on OSes that default to "spawn"
+<<<<<<< ours
 if sys.platform != "win32":
+=======
+if sys.platform == "win32":
+    multiprocessing.set_start_method("spawn")
+else:
+>>>>>>> theirs
     multiprocessing.set_start_method("fork")
 
 
